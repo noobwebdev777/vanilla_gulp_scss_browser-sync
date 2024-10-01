@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   border: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,7 +27,7 @@ body h1 {
   border: 0.5px solid #171a21;
   border-radius: 5px;
 }
-
-p {
-  background-color: blue;
+body h1:hover {
+  background-color: #b497d6;
+  transition-duration: 1s;
 }
