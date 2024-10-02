@@ -1,1 +1,1 @@
-run "gulp" in the terminal. 😊
+run "npm start" in the terminal. 😊
